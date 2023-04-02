@@ -15,7 +15,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from sklearn.linear_model import LogisticRegression
 
 # Load the data
-data = pd.read_csv('Data_Science_Internship.csv', header= 0,
+data = pd.read_csv('dataset.csv', header= 0,
                         encoding= 'unicode_escape')
 
 # Data Cleaning and Feature Selection

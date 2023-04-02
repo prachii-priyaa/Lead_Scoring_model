@@ -4,15 +4,15 @@ Selling something is not an easy task. A business might have many potential cust
 
 Here we have a dataset of leads with their set of features and their status. We have to build a ML model that predicts the lead score as an OUTPUT on the basis of the INPUT set of features. This lead score will range from 0-100, so more the lead score means more chances of conversion of lead to WON.
 
-NOTE: The leads with STATUS other than ‘WON’ or ‘LOST’ can be dropped during training.
+**NOTE**: The leads with STATUS other than **‘WON’** or **‘LOST’** can be dropped during training.
 
-NOTE: Treat all columns as CATEGORICAL columns
+**NOTE:** Treat all columns as CATEGORICAL columns
 
-NOTE:
+**NOTE:**
 
 This '9b2d5b4678781e53038e91ea5324530a03f27dc1d0e5f6c9bc9d493a23be9de0' represents NaN and could be present in more than one column.
 
-Steps should be:
+**Steps should be:**
 
 Data Cleaning ( including Feature Selection)
 Training ( on Y percent of data)
